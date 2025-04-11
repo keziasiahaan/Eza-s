@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eza's zone</title>
+</head>
+<body>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a0a;
+      color: #cfffcf;
+    }
+
+    header {
+      background: url('imgweb/4.jpg') center/cover no-repeat;
+      padding: 60px 40px;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 42px;
+      text-shadow: 0 0 15px rgba(0, 255, 128, 0.7);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .navbar ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar a {
+      color: #80FFA9;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #caffd4;
+      text-shadow: 0 0 10px #6fffcb;
+    }
+
+    .section {
+      padding: 60px 30px;
+    }
+
+    .section h3 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: #5AFFB0;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background-color: #111;
+      border: 1px solid rgba(0, 255, 128, 0.1);
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,255,128,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 20px rgba(0,255,128,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .caption {
+      padding: 15px;
+      font-size: 14px;
+      color: #d6ffd6;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #a9f5a9;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="music.html">Music List</a></li>
+      <li><a href="game.html">Games List</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Hero -->
+  <header>
+    <h1>Welcome to Eza's Zone</h1>
+    <p>Jelajahi isi kreatifku yang penuh warna dan cerita personal.</p>
+  </header>
+
+  <!-- Highlights -->
+  <section class="section">
+    <h3>Top Highlights</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="imgweb/13.jpg" alt="Highlight 1">
+        <div class="caption">Ruang senyap dengan pemandangan yang damai.</div>
+      </div>
+      <div class="card">
+        <img src="imgweb/19.jpg" alt="Highlight 2">
+        <div class="caption">Sudut kota yang penuh inspirasi malam hari.</div>
+      </div>
+      <div class="card">
+        <img src="imgweb/25.jpg" alt="Highlight 3">
+        <div class="caption">Pemandangan langit malam dari atap dunia kecilku.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stories -->
+  <section class="section">
+    <h3>Latest Stories</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="imgweb/5.jpg" alt="Story 1">
+        <div class="caption">Salah satu tempat healing terbaik.</div>
+      </div>
+      <div class="card">
+        <img src="imgweb/6.jpg" alt="Story 2">
+        <div class="caption">Perjalanan tak terduga yang menjadi berharga.</div>
+      </div>
+      <div class="card">
+        <img src="imgweb/8.jpg" alt="Story 3">
+        <div class="caption">Ruang nyaman, secangkir kopi, dan waktu luang.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore -->
+  <section class="section">
+    <h3>Explore More</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="imgweb/9.jpg" alt="Gallery Preview">
+        <div class="caption"><strong>Gallery:</strong> Cerita visual dan warna-warni perjalanan.</div>
+      </div>
+      <div class="card">
+        <img src="imgweb/38.jpg" alt="Music Preview">
+        <div class="caption"><strong>Music List:</strong> Playlist yang mengiringi rasa dan suasana hati.</div>
+      </div>
+      <div class="card">
+        <img src="imgweb/39.jpg" alt="Games Preview">
+        <div class="caption"><strong>Games List:</strong> Koleksi favorit untuk bersantai dan bersenang-senang.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Eza’s Zone | Designed with 💚 forest vibes
+  </footer>
+</body>
+</html>
