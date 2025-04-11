@@ -26,6 +26,20 @@
       text-shadow: 0 0 15px rgba(0, 255, 128, 0.8);
     }
 
+    .back-link {
+          position: absolute;
+          right: 30px;
+          top: 30px;
+          background-color: transparent;
+          border: 2px solid #3cb371;
+          color: #3cb371;
+          padding: 8px 20px;
+          border-radius: 25px;
+          text-decoration: none;
+          font-weight: 600;
+          transition: all 0.3s ease;
+        }
+    
     .music-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -77,6 +91,7 @@
 <body>
   <header>
     <h1>Music List</h1>
+    <a class="back-link" href="index.html">Back</a>
   </header>
 
   <div class="music-grid">
