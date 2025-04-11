@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+</head>
+<body>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a0a;
+      color: #cfffcf;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    .back-link {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      background-color: transparent;
+      border: 2px solid #3cb371;
+      color: #3cb371;
+      padding: 6px 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .back-link:hover {
+      background-color: #3cb371;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(0, 255, 128, 0.5);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px 40px;
+      position: relative;
+    }
+
+    h1, h2, h3 {
+      font-weight: 600;
+      color: #5affb0;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 40px;
+      border-bottom: 1px solid #2f5d50;
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .hero img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 2px;
+      box-shadow: 0 0 15px rgba(0, 255, 128, 0.4);
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .info p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+
+    .linkedin {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .linkedin a {
+      color: #80FFA9;
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .badge {
+      background-color: #2f5d50;
+      color: #fff0c9;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 13px;
+      box-shadow: 0 0 8px rgba(0, 255, 128, 0.3);
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: none;
+      box-shadow: 0 0 15px rgba(47, 93, 80, 0.3);
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero-text {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back-link" href="create.html">Back</a>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="imgweb/profile.jpeg" alt="Foto Profil Eza" />
+      <div class="hero-text">
+        <h1>Hai, saya Eza</h1>
+        <div class="info">
+          <p><strong>Nama Lengkap:</strong> Helen Kezia Nofitri Siahaan</p>
+          <p><strong>Nama Panggilan:</strong> Eza</p>
+          <p><strong>Umur:</strong> 20 tahun</p>
+        </div>
+        <div class="linkedin">
+          <strong>LinkedIn:</strong> <a href="www.linkedin.com/in/keziasiahaan" target="_blank">linkedin.com/in/keziasiahaan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deskripsi -->
+    <section class="section">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah seorang seniman multimedia yang tertarik pada desain ramah lingkungan, keberlanjutan, dan teknologi digital. Saya suka belajar hal baru dan menggabungkan kreativitas dengan teknologi untuk menciptakan hal bermakna.</p>
+    </section>
+
+    <!-- Skill -->
+    <section class="section">
+      <h2>Keahlian</h2>
+      <div class="badges">
+        <div class="badge">🖌️ Adobe</div>
+        <div class="badge">🎨 Canva</div>
+        <div class="badge">🎯 CSS</div>
+        <div class="badge">🧩 Figma</div>
+        <div class="badge">📄 Google Docs</div>
+        <div class="badge">📊 Google Slide</div>
+        <div class="badge">📈 Google Spreadsheets</div>
+        <div class="badge">💻 HTML</div>
+        <div class="badge">⚙️ JavaScript</div>
+        <div class="badge">🖥️ Microsoft</div>
+        <div class="badge">📊 Microsoft Excel</div>
+        <div class="badge">📽️ Microsoft PowerPoint</div>
+        <div class="badge">📐 Microsoft Visio</div>
+        <div class="badge">📝 Microsoft Word</div>
+        <div class="badge">🐍 Python</div>
+        <div class="badge">🎯 UI/UX</div>
+      </div>
+    </section>
+
+    <!-- Pengalaman -->
+    <section class="section">
+      <h2>Pengalaman</h2>
+      <div class="card">
+        <h3>Freelance Web Designer</h3>
+        <p>Membuat dan merancang website portofolio, landing page, dan UI digital produk. (2022–sekarang)</p>
+      </div>
+      <div class="card">
+        <h3>Guru Ekskul Bahasa Jepang</h3>
+        <p>Mengajar siswa dalam topik bahasa dan budaya Jepang. (2023–Sekarang)</p>
+      </div>
+      <div class="card">
+        <h3>Anggota Organisasi Mahasiswa</h3>
+        <p>Aktif sebagai pengurus divisi kreatif di [nama organisasi].</p>
+      </div>
+    </section>
+
+    <!-- Riwayat Sekolah -->
+    <section class="section">
+      <h2>Riwayat Sekolah</h2>
+      <div class="card">
+        <h3>SMP</h3>
+        <p>Harapan 2 Bali</p>
+      </div>
+      <div class="card">
+        <h3>SMA</h3>
+        <p>SMAN 6 Depok</p>
+      </div>
+    </section>
+
+    <!-- Sertifikasi -->
+    <section class="section">
+      <h2>Sertifikasi</h2>
+      <div class="card">
+        <h3>Sertifikasi N5 Bahasa Jepang</h3>
+        <p>Dasar kemampuan membaca dan menulis hiragana, katakana, dan kosakata dasar Jepang.</p>
+      </div>
+      <div class="card">
+        <h3>Sertifikasi N4 Bahasa Jepang</h3>
+        <p>Kemampuan berkomunikasi sederhana dalam kehidupan sehari-hari dalam bahasa Jepang.</p>
+      </div>
+      <div class="card">
+        <h3>Sertifikasi N3 Bahasa Jepang</h3>
+        <p>Pemahaman tingkat menengah mengenai tata bahasa, bacaan, dan percakapan.</p>
+      </div>
+      <div class="card">
+        <h3>Sertifikasi N2 Bahasa Jepang</h3>
+        <p>Kemampuan tinggi membaca dan memahami berbagai bacaan dan artikel umum dalam bahasa Jepang.</p>
+      </div>
+      <div class="card">
+        <h3>Foundations of User Experience (UX) Design</h3>
+        <p>Dasar-dasar UX, proses desain berpusat pengguna, dan keterampilan desain digital.</p>
+      </div>
+      <div class="card">
+        <h3>Start the UX Design Process: Empathize, Define, and Ideate</h3>
+        <p>Langkah awal dalam proses desain UX, mulai dari empati hingga penyusunan solusi awal.</p>
+      </div>
+      <div class="card">
+        <h3>Sertifikasi BEES</h3>
+        <p>Serifikasi Bahasa Inggris Tingkat menengah.</p>
+      </div>
+      <div class="card">
+        <h3>Sertifikasi DQLab</h3>
+        <p>Pelatihan online dalam data science, Python, dan eksplorasi data.</p>
+      </div>
+      <div class="card">
+        <h3>Sertifikasi Kuliah Umum DTS</h3>
+        <p>Seminar mengenai transformasi digital dan pengembangan talenta teknologi di Indonesia.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

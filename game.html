@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games List</title>
+</head>
+<body>
+    <style>
+        body {
+          margin: 0;
+          font-family: 'Inter', sans-serif;
+          background-color: #0d0d0d;
+          color: #e0f2e9;
+        }
+    
+        header {
+          background: url('imgweb/m14.jpg') center/cover no-repeat;
+          padding: 60px 40px;
+          text-align: center;
+          position: relative;
+          color: #fff;
+        }
+    
+        header h1 {
+          margin: 0;
+          font-size: 42px;
+          text-shadow: 0 0 20px rgba(0, 255, 128, 0.7);
+        }
+    
+        .back-link {
+          position: absolute;
+          right: 30px;
+          top: 30px;
+          background-color: transparent;
+          border: 2px solid #3cb371;
+          color: #3cb371;
+          padding: 8px 20px;
+          border-radius: 25px;
+          text-decoration: none;
+          font-weight: 600;
+          transition: all 0.3s ease;
+        }
+    
+        .back-link:hover {
+          background-color: #3cb371;
+          color: #fff;
+          box-shadow: 0 0 15px rgba(0, 255, 128, 0.6);
+        }
+    
+        .game-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+          gap: 24px;
+          padding: 40px;
+          max-width: 1300px;
+          margin: auto;
+        }
+    
+        .game-card {
+          background-color: #1b1f1c;
+          border: 1px solid #2c423f;
+          border-radius: 6px;
+          box-shadow: 0 0 8px rgba(0, 255, 128, 0.15);
+          overflow: hidden;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .game-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 0 15px rgba(0, 255, 128, 0.3);
+        }
+    
+        .game-card img {
+          width: 100%;
+          height: 160px;
+          object-fit: cover;
+        }
+    
+        .game-content {
+          padding: 15px;
+        }
+    
+        .game-title {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 8px;
+          color: #aaf2c4;
+        }
+    
+        .game-desc {
+          font-size: 14px;
+          margin-bottom: 10px;
+          color: #d3d3d3;
+        }
+    
+        .game-links a {
+          display: inline-block;
+          margin-right: 10px;
+          padding: 6px 12px;
+          border-radius: 4px;
+          background-color: #2c423f;
+          color: #ffffff;
+          font-size: 13px;
+          text-decoration: none;
+          transition: background-color 0.3s, box-shadow 0.3s;
+        }
+    
+        .game-links a:hover {
+          background-color: #3cb371;
+          box-shadow: 0 0 8px rgba(0, 255, 128, 0.4);
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <h1>Game Collection</h1>
+        <a class="back-link" href="create.html">Back</a>
+      </header>
+          <div class="game-grid">
+            <div class="game-card">
+              <img src="imgweb/g1.jpg" alt="Genshin Impact">
+              <div class="game-content">
+                <div class="game-title">Genshin Impact</div>
+                <div class="game-desc">Petualangan dunia terbuka yang epik dengan elemen dan karakter menarik.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/watch?v=RnG0_AcRmos&pp=ygUOZ2Vuc2hpbiBpbXBhY3Q%3D" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g2.jpg" alt="Honkai Impact 3">
+              <div class="game-content">
+                <div class="game-title">Honkai Impact 3</div>
+                <div class="game-desc">Game aksi dengan alur cerita futuristik dan visual yang memukau.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.miHoYo.bh3oversea&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/watch?v=LALS8N-MbVU&pp=ygUPaG9ua2FpIGltcGFjdCAz" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g3.jpg" alt="Honkai Star Rail">
+              <div class="game-content">
+                <div class="game-title">Honkai Star Rail</div>
+                <div class="game-desc">Perjalanan luar angkasa dengan sistem turn-based combat yang stylish.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/watch?v=0FPvfC8g6-Q&pp=ygUQaG9ua2FpIHN0YXIgcmFpbA%3D%3D" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g4.jpg" alt="Mobile Legends">
+              <div class="game-content">
+                <div class="game-title">Mobile Legends</div>
+                <div class="game-desc">MOBA populer dengan pertarungan 5v5 cepat dan strategis.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/@MobileLegends5v5MOBA" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g5.jpg" alt="CODM">
+              <div class="game-content">
+                <div class="game-title">CODM</div>
+                <div class="game-desc">Call of Duty versi mobile dengan grafis dan aksi menegangkan.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.garena.game.codm&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/@garenacodmid" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g6.jpg" alt="Sky">
+              <div class="game-content">
+                <div class="game-title">Sky</div>
+                <div class="game-desc">Petualangan emosional di dunia terbuka yang damai dan artistik.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.tgc.sky.android&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/watch?v=1xXsAVkKD0g&pp=ygUIc2t5IGNvdGw%3D" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g7.jpg" alt="Wuthering Waves">
+              <div class="game-content">
+                <div class="game-title">Wuthering Waves</div>
+                <div class="game-desc">Action RPG penuh gaya dengan dunia yang mendalam dan misterius.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.kurogame.wutheringwaves.global&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/watch?v=YJ50goqv-5o&pp=ygUPd3V0aGVyaW5nIHdhdmVz" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g8.jpg" alt="Cookie Run: Kingdoms">
+              <div class="game-content">
+                <div class="game-title">Cookie Run: Kingdoms</div>
+                <div class="game-desc">Gabungan strategi dan RPG dalam dunia manis para cookie pemberani.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.devsisters.ck&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/watch?v=BQin0xDc8BM&pp=ygUSY29va2llIHJ1biBraW5nZG9t" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="game-card">
+              <img src="imgweb/g9.jpg" alt="Crossy Road">
+              <div class="game-content">
+                <div class="game-title">Crossy Road</div>
+                <div class="game-desc">Game kasual adiktif tentang menyeberang jalan dengan gaya retro.</div>
+                <div class="game-links">
+                  <a href="https://play.google.com/store/apps/details?id=com.yodo1.crossyroad&pcampaignid=web_share" target="_blank">Download</a>
+                  <a href="https://www.youtube.com/watch?v=j6RR89cfrx8&pp=ygULY3Jvc3N5IHJvYWQ%3D" target="_blank">YouTube</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+</body>
+</html>
